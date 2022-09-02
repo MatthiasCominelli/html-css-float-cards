@@ -1,0 +1,49 @@
+/* GENERAL STYLE*/ 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Fredoka', sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+h1 {
+    margin: 50px 0;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 1px 1px #0f0e17;
+    color: #e53170;
+}
+
+.intro-text {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+/* LAYOUT*/
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+.col{
+    float: left;
+    width: calc(100% / 3);
+    padding: 0 16px;
+}
+
+/* CARDS */
+
+.card{
+    color: #fffffe;
+    background: #0f0e17;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0, 5);
+}
